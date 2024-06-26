@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2083952a88.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="image/back.jpg" class="logo">
+            <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header">
+            <br>
+            <p>Electronics Engineer</p>
+            <br>
+            <br>
+            <br><br>
+            <h1>Hai I'm  <span>Rohan </span>Sony <br> from Kerala ,India</h1>
+        </div>
+      </div>  
+    </div>
+    <!--------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/rohan 2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Motivated and enthusiastic 2st-year student pursuing a degree in Electronics and Communication 
+                        Engineering at Government Model Engineering College, Thrikkakkara. Eager to apply theoretical 
+                        knowledge and develop practical skills in a professional setting.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Certification</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designng web app interfaces</li>
+                                <li><span>Programming</span><br>Expert in Python,C,HTML,CSS</li>
+                                <li><span>Database</span><br>knowledge in MySQL,SQL</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span><a href="https://www.tcsion.com/courses/career-edge-young-professional/">TCS Ion Career Edge</a><br></span><br>Professional marketing Business</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Electronics Engineering</span><br><a href="https://www.mec.ac.in/">Govt. Model Engineering Collage </a>Thrikkakkara (2023-27)</li>
+                                <li><span>12th Grade</span><br><a href="https://saps.ac.in/">St. Antony's Public School  </a> Anakkal (2023)</li>
+                                <li><span>10th Grade</span><br><a href="https://saps.ac.in/">St. Antony's Public School </a>  Anakkal (2021) </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Sevices</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <h2>Web Designing</h2>
+                    <p> Creating visually appealing and functional websites using design 
+                        principles and technical skills.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> Intuitive and Engaging digital experiences for users.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>APP Designing</h2>
+                    <p> Crafts user-friendly interfaces for mobile or web applications.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------portfoli--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/sm.jpg" alt="">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>Connecting U with the Huge World</p>
+                    <a href="connct.html#sm"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work" >
+                <img src="image/news.jpg" alt="">
+                <div class="layer">
+                    <h3>Online news</h3>
+                    <p>See What's happening around U</p>
+                    <a href="connct.html#news"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/shops.jpg" alt="">
+                <div class="layer">
+                    <h3>Shopping</h3>
+                    <p>Buy From a Huge Selection of Collections</p>
+                    <a href="connct.html#shop"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!-----------------contact--->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><a href="mailto:rohansony2005@gmail.com"><i class="fa-regular fa-envelope"></i>rohansony2005@gmail.com</a></p>
+                <p><a href="tel:+919656003055"><i class="fa-solid fa-phone"></i>+91 9656003055</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rohan.sony.5095?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_rohan_sony_?igsh=NTc4MTIwNjQ2YQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rohan-sony-435745274"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/rohan1sony/portfolio.git"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="image/Resume Rohan.pdf" download  class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email ID" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2 b">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i>copyright Made with <i class="fa-regular fa-heart"></i> </p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+        function opentab( tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right='0';
+        }
+        function closemenu(){
+            sidemenu.style.right='-200px';
+        }
+    </script>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbyinzgn_nJ4055_Y9PQ6lAfhk4mK9XAC5OZ_mZ8E4knXOYDiSrnRy6cYzys56ePxgKx/exec"
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </body>
+</html>
